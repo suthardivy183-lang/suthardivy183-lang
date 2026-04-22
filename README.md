@@ -1,16 +1,15 @@
-## Hi there 👋
+# Hi 👋 I'm Divy
 
-<!--
-**suthardivy183-lang/suthardivy183-lang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+class Divy:
+    def __init__(self):
+        self.role = "BTech CSE Student"
+        self.learning = ["Web Development", "dsa", "Git & GitHub","llms"]
+        self.skills = ["mern stack developement","c++","python"]
+        self.goals = ["Build real projects", "Get internships", "Grow daily"]
 
-Here are some ideas to get you started:
+    def __str__(self):
+        return "🚀 Building projects and leveling up every day"
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+me = Divy()
+print(me)
